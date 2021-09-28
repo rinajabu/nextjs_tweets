@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import Post from '../components/Post'
 
 export default function Home() {
   return (
@@ -19,16 +19,28 @@ export default function Home() {
 
         <ul className={styles.ul}>
           <li>
-            <p className={styles.postContent}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti, eum rerum amet perferendis ipsum voluptate qui vel voluptas maiores.</p>
-            <p className={styles.postDate}>9/28/2021</p>
+            <Post 
+              content="I am a new Post!" 
+              date="9/30/2021" 
+            />
           </li>
           <li>
-            <p className={styles.postContent}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti, eum rerum amet perferendis ipsum voluptate qui vel voluptas maiores.</p>
-            <p className={styles.postDate}>9/28/2021</p>
+            <Post 
+              content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti, eum rerum amet perferendis ipsum voluptate qui vel voluptas maiores." 
+              date="9/28/2021" 
+            />
           </li>
           <li>
-            <p className={styles.postContent}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti, eum rerum amet perferendis ipsum voluptate qui vel voluptas maiores.</p>
-            <p className={styles.postDate}>9/28/2021</p>
+            <Post 
+              content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti, eum rerum amet perferendis ipsum voluptate qui vel voluptas maiores." 
+              date="9/28/2021" 
+            />
+          </li>
+          <li>
+            <Post 
+              content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti, eum rerum amet perferendis ipsum voluptate qui vel voluptas maiores." 
+              date="9/28/2021" 
+            />
           </li>
         </ul>
 
