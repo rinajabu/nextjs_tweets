@@ -51,19 +51,6 @@
   margin-bottom: 0;
 }
 
-.postContent {
-  font-size: 34px;
-  line-height: 43px;
-  margin-bottom: .5em;
-}
-
-.postDate {
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 33px;
-  margin-bottom: .5em;
-}
-
 .formInput {
   width: 100%;
   font-size: 1.4em;
